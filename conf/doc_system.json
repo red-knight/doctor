@@ -1,0 +1,5 @@
+{
+  "prefix" : [ "dev", "test", "mgt", "red" ],
+  "hostname" : [ "client", "desk", "blue", "code" ],
+  "postfix" : 50
+}
