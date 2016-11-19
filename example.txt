@@ -1,0 +1,448 @@
+{
+  "processes" : [
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:04:44",
+      "Image Name" : "CorsairHID.exe",
+      "Session Name" : "Console",
+      "Window Title" : "HID",
+      "PID" : "10736",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "39,952",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "WUDFHost.exe",
+      "Session Name" : "Services",
+      "Window Title" : "N/A",
+      "PID" : "1276",
+      "User Name" : "NT AUTHORITY\\LOCAL SERVICE",
+      "ge" : "K",
+      "Mem Usa" : "7,348",
+      "Session#" : "0"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:00:03",
+      "Image Name" : "conhost.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "12716",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "12,700",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "tasklist.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "2304",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "9,252",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:00:03",
+      "Image Name" : "NVIDIA Share.exe",
+      "Session Name" : "Console",
+      "Window Title" : "NVIDIA GeForce Overlay",
+      "PID" : "8824",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "37,840",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:01",
+      "Image Name" : "chrome.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "7520",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "40,608",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:02",
+      "Image Name" : "OfficeClickToRun.exe",
+      "Session Name" : "Services",
+      "Window Title" : "N/A",
+      "PID" : "2476",
+      "User Name" : "NT AUTHORITY\\SYSTEM",
+      "ge" : "K",
+      "Mem Usa" : "40,456",
+      "Session#" : "0"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:16",
+      "Image Name" : "chrome.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "9612",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "217,816",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:01",
+      "Image Name" : "nvcontainer.exe",
+      "Session Name" : "Services",
+      "Window Title" : "N/A",
+      "PID" : "2500",
+      "User Name" : "NT AUTHORITY\\SYSTEM",
+      "ge" : "K",
+      "Mem Usa" : "17,480",
+      "Session#" : "0"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:06:09",
+      "Image Name" : "OVRServer_x64.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "13860",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "27,656",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:03",
+      "Image Name" : "Adobe CEF Helper.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "11000",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "26,532",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "smartscreen.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "13032",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "14,620",
+      "Session#" : "1"
+    }
+  ],
+  "interfaces" : [
+    {
+      "ip" : "192.168.1.51",
+      "mac" : "50-E5-49-96-55-42",
+      "id" : "03"
+    },
+    {
+      "ip" : "192.168.1.233",
+      "mac" : "50-E5-49-55-30-65",
+      "id" : "01"
+    },
+    {
+      "ip" : "192.168.1.48",
+      "mac" : "50-E5-49-32-25-40",
+      "id" : "01"
+    },
+    {
+      "ip" : "192.168.1.135",
+      "mac" : "50-E5-49-55-30-65",
+      "id" : "03"
+    }
+  ],
+  "hostname" : "red-desk-35",
+  "users" : [
+    {
+      "session" : 6628,
+      "name" : "bob",
+      "startime" : "2016-11-19 07:30:18.835494"
+    },
+    {
+      "session" : 9637,
+      "name" : "timmy",
+      "startime" : "2016-11-19 07:23:19.835536"
+    },
+    {
+      "session" : 8116,
+      "name" : "robert",
+      "startime" : "2016-11-19 07:29:37.835555"
+    },
+    {
+      "session" : 6402,
+      "name" : "timmy",
+      "startime" : "2016-11-19 07:04:46.835575"
+    },
+    {
+      "session" : 9143,
+      "name" : "texas",
+      "startime" : "2016-11-19 07:12:46.835593"
+    },
+    {
+      "session" : 7393,
+      "name" : "waffles",
+      "startime" : "2016-11-19 07:00:37.835611"
+    }
+  ]
+}
+{
+  "processes" : [
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:02:54",
+      "Image Name" : "des2svr.exe",
+      "Session Name" : "Services",
+      "Window Title" : "N/A",
+      "PID" : "2460",
+      "User Name" : "NT AUTHORITY\\SYSTEM",
+      "ge" : "K",
+      "Mem Usa" : "5,132",
+      "Session#" : "0"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "IpOverUsbSvc.exe",
+      "Session Name" : "Services",
+      "Window Title" : "N/A",
+      "PID" : "2432",
+      "User Name" : "NT AUTHORITY\\SYSTEM",
+      "ge" : "K",
+      "Mem Usa" : "11,280",
+      "Session#" : "0"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:07:44",
+      "Image Name" : "chrome.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "8512",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "240,896",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:00:03",
+      "Image Name" : "AdobeIPCBroker.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "10300",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "9,116",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:00:05",
+      "Image Name" : "RzSynapse.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "10476",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "54,588",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "razerofa.exe",
+      "Session Name" : "Console",
+      "Window Title" : "Razer Diamondback On-the-Fly Sensitivity",
+      "PID" : "11132",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "4,804",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "dllhost.exe",
+      "Session Name" : "Console",
+      "Window Title" : "OleMainThreadWndName",
+      "PID" : "13524",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "9,012",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:01:05",
+      "Image Name" : "SearchIndexer.exe",
+      "Session Name" : "Services",
+      "Window Title" : "N/A",
+      "PID" : "4464",
+      "User Name" : "NT AUTHORITY\\SYSTEM",
+      "ge" : "K",
+      "Mem Usa" : "38,780",
+      "Session#" : "0"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "smartscreen.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "13032",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "14,620",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:07:57",
+      "Image Name" : "chrome.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "9796",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "118,332",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "chrome.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "9748",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "30,240",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:04:44",
+      "Image Name" : "CorsairHID.exe",
+      "Session Name" : "Console",
+      "Window Title" : "HID",
+      "PID" : "10736",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "39,952",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:02:18",
+      "Image Name" : "chrome.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "9596",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "233,492",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:01:11",
+      "Image Name" : "NVIDIA Share.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "9040",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "41,452",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Running",
+      "CPU Time" : "0:00:48",
+      "Image Name" : "n360.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "2284",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "15,844",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:12",
+      "Image Name" : "AppleMobileDeviceService.",
+      "Session Name" : "Services",
+      "Window Title" : "N/A",
+      "PID" : "2412",
+      "User Name" : "NT AUTHORITY\\SYSTEM",
+      "ge" : "K",
+      "Mem Usa" : "10,272",
+      "Session#" : "0"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "chrome.exe",
+      "Session Name" : "Console",
+      "Window Title" : "N/A",
+      "PID" : "9628",
+      "User Name" : "COMSTAR-ALPHA\\red",
+      "ge" : "K",
+      "Mem Usa" : "34,112",
+      "Session#" : "1"
+    },
+    {
+      "Status" : "Unknown",
+      "CPU Time" : "0:00:00",
+      "Image Name" : "mDNSResponder.exe",
+      "Session Name" : "Services",
+      "Window Title" : "N/A",
+      "PID" : "2748",
+      "User Name" : "NT AUTHORITY\\SYSTEM",
+      "ge" : "K",
+      "Mem Usa" : "5,872",
+      "Session#" : "0"
+    }
+  ],
+  "interfaces" : [
+    {
+      "ip" : "192.168.1.106",
+      "mac" : "50-E5-49-32-25-40",
+      "id" : "Lan Adapter"
+    },
+    {
+      "ip" : "192.168.1.74",
+      "mac" : "50-E5-49-96-55-42",
+      "id" : "silly internet thing"
+    }
+  ],
+  "hostname" : "mgt-client-13",
+  "users" : [
+    {
+      "session" : 1952,
+      "name" : "robert",
+      "startime" : "2016-11-19 07:29:05.836397"
+    },
+    {
+      "session" : 1132,
+      "name" : "bob",
+      "startime" : "2016-11-19 06:58:34.836419"
+    }
+  ]
+}

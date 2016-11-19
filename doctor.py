@@ -10,6 +10,7 @@ import datetime
 import json
 import os
 import random
+import pprint
 import time
 
 # Load all the config files and return dictionaries
@@ -79,7 +80,7 @@ def genEvent(system, interface, process, user):
         # Append new interface to randSys and ++i
         randSys['interfaces'].append(intf)
 
-        intNum = intNum + 1
+        intNum += 1
 
     # Create random number of users
     numUsers = random.randint(1,10)
@@ -94,17 +95,16 @@ def genEvent(system, interface, process, user):
         randUser['startime'] = str(datetime.datetime.now() - datetime.timedelta(seconds=randTime))
 
         randSys['users'].append(randUser)
-        intNum = intNum + 1
+        intNum += 1
 
     # Generate random number of processes
     numProcs = random.randint(10,20)
     intNum = 0
     while intNum <= numProcs:
          randSys['processes'].append(random.choice(process['process']))
-         intNum = intNum + 1
+         intNum += 1
 
-
-    print(randSys)
+    return randSys
 
 
 
@@ -116,7 +116,17 @@ def genEvent(system, interface, process, user):
 def main():
 
     (config, system, interface, process, user) = loadConfig()
-    genEvent(system, interface, process, user)
+    if config['loops']  == 0:
+        while True:
+            newSys = genEvent(system, interface, process, user)
+            sleep(config['period'])
+    else:
+        loops = 1
+        while loops <= config['loops']:
+            newSys = genEvent(system, interface, process, user)
+            print(json.dumps(newSys, indent=2, separators=(',', ' : ')))
+            loops += 1
+
 
 
 if __name__ == '__main__':

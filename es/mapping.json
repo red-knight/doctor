@@ -1,0 +1,95 @@
+{
+  "template": "status-*",
+  "settings": {
+    "number_of_shards": 1
+  },
+  "mappings": {
+    "client": {
+      "properties": {
+        "host_name": {
+          "type": "string",
+          "index" : "not_analyzed"
+        },
+        "processes" : {
+          "properties" : {
+            "process" : {
+              "properties" : {
+                "Status" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "CPU Time" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "Image Name" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "Session Name" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "Window Title" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "PID" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "User Name" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "ge" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "Mem Usa" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                },
+                "Session#" : {
+                  "type" : "string",
+                  "index" : "not_analyzed"
+                }
+              }
+            }
+          }
+        }
+        "interfaces" : {
+          "properties" : {
+            "ip" : {
+              "type" : "ip"
+            },
+            "mac" : {
+              "type" : "string",
+              "index" : "not_analyzed"
+            },
+            "id" : {
+              "type" : "string",
+              "index" : "not_analyzed"
+            }
+          }
+        },
+        "users" : {
+          "properties" : {
+            "session" : {
+              "type" : "string",
+              "index" : "not_analyzed"
+            },
+            "name" : {
+              "type" : "string",
+              "index" : "not_analyzed"
+            },
+            "startime" : {
+              "type" : "datetime"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
