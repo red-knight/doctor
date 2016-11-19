@@ -58,6 +58,14 @@
             }
           }
         }
+      }
+    },
+    "interfaces": {
+      "properties": {
+        "host_name": {
+          "type": "string",
+          "index" : "not_analyzed"
+        },
         "interfaces" : {
           "properties" : {
             "ip" : {
@@ -72,6 +80,14 @@
               "index" : "not_analyzed"
             }
           }
+        }
+      }
+    },
+    "client": {
+      "properties": {
+        "host_name": {
+          "type": "string",
+          "index" : "not_analyzed"
         },
         "users" : {
           "properties" : {
